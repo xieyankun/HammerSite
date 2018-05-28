@@ -1,0 +1,33 @@
+{
+  "name": "HammerSite",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/xieyankun/HammerSite.git",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xieyankun/HammerSite/issues"
+  },
+  "homepage": "https://github.com/xieyankun/HammerSite#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^3.1.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-less": "^3.3.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "gulp-webserver": "^0.9.1",
+    "imagemin-pngquant": "^5.0.1",
+    "require-dir": "^0.3.2"
+  }
+}
