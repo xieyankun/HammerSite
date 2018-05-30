@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/gulp",
-    "build": "./node_modules/.bin/gulp build"
+    "build": "./node_modules/.bin/gulp build",
+    "preview": "./node_modules/.bin/gulp preview"
   },
   "repository": "git+https://github.com/xieyankun/HammerSite.git",
   "author": "",
@@ -30,5 +31,10 @@
     "gulp-webserver": "^0.9.1",
     "imagemin-pngquant": "^5.0.1",
     "require-dir": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
   }
 }
